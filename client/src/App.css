@@ -1,0 +1,66 @@
+body {
+  margin: 20px 150px;
+}
+
+.job{
+  width: 96%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.job:hover{
+  cursor: pointer;
+  color: rgb(141, 141, 141);
+}
+
+.postedDay{
+padding-top: 20px;
+}
+.counter{
+  width: 40px;
+  height: 28px;
+  background-color: rgb(255, 215, 162);
+  text-align: center;
+  border-radius: .1rem;
+}
+
+.JobsTitle{
+  color:rgb(104, 190, 107);
+  text-decoration: none;
+}
+
+.jobCount{
+  margin-bottom: 15px;
+}
+.jobfilter{
+  margin-top: 50px;
+}
+
+.jobfilter > button{
+font-size: 11px;
+margin-bottom: 7px;
+
+}
+
+.jobfilter > input{
+margin-left: 20px;
+font-size: 20px;
+border-radius: .2rem;
+margin-right: 10px;
+}
+
+.jobfilter > label {
+  font-size: 18px;
+}
+
+.tags{
+  font-style: italic;
+  padding-top: 5px;
+  color:rgb(29, 161, 34);
+}
+.updateInfo{
+float: right;
+padding-left: 15px;
+}
